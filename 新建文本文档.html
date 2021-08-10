@@ -1,0 +1,274 @@
+ <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>百度一下，你就知道</title>
+</head>
+
+<body style="margin: 0px;">
+    <div >
+        <div class="title-left">
+            <a class="title-item">新闻</a>
+            <a class="title-item">hao123</a>
+            <a class="title-item">地图</a>
+            <a class="title-item">直播</a>
+            <a class="title-item">视频</a>
+            <a class="title-item">贴吧</a>
+            <a class="title-item">学术</a>
+            <a class="title-item">更多</a>
+        </div>
+        <div class="title-right">
+            <span>设置</span>
+            <a href="">登录</a>
+        </div>
+    </div>
+    <div class="img-top">
+        <img src="baidu.png" alt="" style="width: 270px;">
+    </div>
+    <div class="input">
+        <input><span>百度一下</span>
+    </div>
+    <div class="img-bottom">
+        <img src="a.png" alt="" style="width:244px">
+    </div>
+    <div class="news">
+        <div class="news-title">
+            <a>百度热搜</a>
+            <a style=" margin-left: 35%;">
+                换一换
+            </a>
+        </div>
+        <div class="news-info" style="width: 100%;">
+            <ul>
+                <li><a href=""><span style="color: red;">1</span><span>31省区市新增本土确诊71例</span><span style="background-color: red;
+                    border-radius:5px;color: white;">沸</span></a></li>
+                <li><a href=""><span style="color: red;">2</span><span>中国女乒晋级团体决赛将战日本#</span><span></span></a></li>
+                <li><a href=""><span style="color: orange;">3</span><span>张家界多名公职人员被处理</span><span></span></a></li>
+            </ul>
+            <ul>
+                <li><a href=""><span style="color: #bbb;">4</span><span>武汉疫情与江苏病例毒株高度同源</span><span></span></a></li>
+                <li><a href=""><span style="color: #bbb;">5</span><span>江苏新增35例本土确诊:扬州32例</span><span style="background-color: orange;
+                    border-radius:5px;color: white;">热</span></a></li>
+                <li><a href=""><span style="color: #bbb;">6</span><span>央视主播评南京老太被刑拘</span><span></span></a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="body-bottom">
+        <p><a href="">关于百度</a></p>
+        <p><a href="">About Baidu</a></p>
+        <p><a href="">使用百度前必读</a></p>
+        <p><a href="">帮助中心</a></p>
+        <p><a href="">京公网安备11000002000001号</a></p>
+        <p><a href="">京ICP证030173号</a></p>
+        <p><span>©2021 Baidu </span></p>
+        <p><span>互联网药品信息服务资格证书 (京)-经营性-2017-0020</span></p>
+        <p><a href="">信息网络传播视听节目许可证 0110516</a></p>
+    </div>
+</body>
+<style>
+    .news {
+        margin-top: 30px;
+        align-items: center;
+        font-size: 14px;
+    }
+
+    .news-info {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .news-info ul {
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
+    }
+
+    .news-info li {
+        list-style: none;
+        height: 32px;
+        width: 300px;
+    }
+
+    .news-info li>a>span:hover {
+        color: #315efb;
+    }
+
+    .news-info li>a {
+        text-decoration: none;
+        height: 25px;
+    }
+
+    .news-info li>a>span {
+        color: black;
+        height: 15px;
+        margin-left: 10px;
+        padding: 0px 2px 0.5px 2px;
+    }
+
+    .news-title {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .news-title a:hover {
+        color: #315efb;
+    }
+
+    .title-left {
+        left: 0;
+        width: 500px;
+        padding-left: 24px;
+        position: absolute;
+        display: flex;
+    }
+
+    .title-left a {
+        display: block;
+        width: 100%;
+        color: black;
+        font-size: 14px;
+        margin-right: 31px;
+        text-decoration: none;
+        line-height: 64px;
+        text-align: center;
+    }
+
+    .title-left a:hover,
+    .title-right span:hover {
+        color: #315efb
+    }
+
+    .title-item {
+        display: inline-block;
+
+    }
+
+    .title-right {
+        right: 0;
+        position: absolute;
+        flex: 1;
+        width: 50%;
+        padding-right: 24px;
+        text-align: right;
+        line-height: 64px;
+        font-size: 13px;
+        text-decoration: none;
+    }
+
+
+    .title-right a {
+        color: white;
+        background-color: #315efb;
+        border-radius: 8px;
+        padding: 4px 10px 4px 10px;
+    }
+
+    .title-right span {
+        color: black;
+        padding: 4px 8px;
+    }
+
+    .title-buttom {
+        background-color: #315efb;
+        width: 26px;
+        height: 24px;
+    }
+
+    .title-buttom a {
+        color: white;
+        text-decoration: none;
+        margin-left: 32px;
+
+    }
+
+    .body-bottom {
+        max-width: 100%;
+        font-size: 12px;
+        text-align: center;
+        position: absolute;
+        bottom: 0px;
+        white-space: nowrap;
+        margin-left: 5%;
+        text-align: center;
+    }
+
+    .body-bottom a:hover {
+        color: black;
+    }
+
+    .title-item:hover {
+        color: #315efb;
+    }
+
+    .body-bottom a,
+    .body-bottom span {
+        color: #bbb;
+    }
+
+
+    p {
+        display: inline-block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        margin: 0px 5px;
+    }
+
+    span {
+        line-height: 60px;
+        text-decoration: none;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    .input {
+        width: 100%;
+        text-align: center;
+    }
+
+    .input input {
+        display: inline-block;
+        border: 2px solid #c4c7ce;
+        padding: 12px 48px 12px 16px;
+        height: 16px;
+        border-radius: 10px 0 0 10px;
+        outline: none;
+        width: 446px;
+    }
+
+    .input input:hover {
+        border: 2px solid #a7aab5
+    }
+
+    .input input:focus {
+        border: 2px solid #315efb
+    }
+
+    .input span {
+        background-color: #315efb;
+        padding-top: 9px;
+        padding-bottom: 13px;
+        padding-left: 21px;
+        border-radius: 0 10px 10px 0;
+        color: white;
+        padding-right: 21px;
+    }
+
+    .img-top,
+    .img-bottom {
+        width: 100%;
+        text-align: center;
+        padding-top: 30px;
+    }
+</style>
+
+</html>
